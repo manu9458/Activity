@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Question1 {
 	
-	public static String First_lettler(String s)
+	public static String First_letter(String s)
 	{
 		String s1= (s.substring(0,1)).toUpperCase();
 		int i ,n=-1;
@@ -26,7 +26,7 @@ public class Question1 {
 		System.out.println("Enter Your Name Here:");
 		String s=sc.nextLine();
 		sc.close();
-		System.out.print(First_lettler(s));
+		System.out.print(First_letter(s));
 	
 	}
 
